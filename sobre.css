@@ -1,0 +1,18 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: #3d3d3d;
+    background-color: #E1EDF2;
+}
+
+h2 {
+    border-bottom: 2px solid #3d3d3d;
+}
+
+figure {
+    text-align: center;
+    background-color: whitesmoke;
+    color: lightgray;
+}
