@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Contato</title>
+    <link rel="stylesheet" href="contato.css">
+</head>
+<body>
+    <section class="container">
+        <h1>Entre em Contato</h1>
+
+        <form action="" method="post">
+            <div class="ExemplosDeEscrita">
+                <input type="text" id="nome" name="nome" placeholder="João da Silva" required>
+                <label for="nome">Nome</label>
+            </div>
+
+            <div class="ExemplosDeEscrita">
+                <input type="tel" id="fone" name="fone" placeholder="(00) 12345-6789" required>
+                <label for="fone">Telefone</label>
+
+            </div>
+
+            <div class="ExemplosDeEscrita">
+                <input type="email" id="email" name="email"  placeholder="exemplo@hotmail.com" required>
+                <label for="email">Email</label>
+            </div>
+
+            <div class="ExemplosDeEscrita">
+                <label for="mensagem"></label>
+                <textarea id="mensagem" name="mensagem" rows="5" placeholder="Deixe sua opinião"></textarea required></textarea>
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
